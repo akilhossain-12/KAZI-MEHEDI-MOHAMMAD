@@ -1,0 +1,140 @@
+  .container{ 
+    width:300px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+    color:rgb(204, 243, 241);
+    margin:170px auto;
+    border-radius:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background-color: rgb(48, 48, 85);
+    border-radius: 5px;;
+  } 
+
+  body{
+    font-family: Arial,Roboto;
+  }
+
+  .icon-container{
+    position:relative;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .icon-text{
+    position:absolute;
+    opacity:0;
+    border-radius: 2px;
+    font-size:12px ;
+    white-space:nowrap;
+    pointer-events: none;
+
+  }
+
+  .icon-text{
+    margin-top: 80px;
+    background-color:rgb(76, 75, 75);
+    color:white;
+    padding:4px;
+  }
+
+  .icon-container:hover .icon-text {
+    opacity: 1;
+    transition:.5s;
+  }
+
+
+  body{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-image: url('/math-25422019-hd.jpg');
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  h2:hover{
+    color: lightsalmon;
+    transition:.3s;
+    cursor:pointer;
+  }
+
+  h4{
+    margin: 5px;
+    color:rgb(96, 180, 96);
+  }
+
+  img{
+    width:90px;
+    height: 90px;
+    border-radius: 60px;
+    object-fit: cover;
+  }
+
+  .comment{
+    color: rgb(91, 89, 89);
+    text-align: center;
+    font-size:17px;
+    margin-bottom: 15px;
+    color:aqua
+  }
+
+  button{
+    font-size:17px;
+    color: white;
+    background-color: lightseagreen;
+    border-radius: 2px;
+    border:none;
+    height:45px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  button:hover{
+    background-color: rgb(100, 46, 54);
+    transition:.3s;
+  }
+
+  .link{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:35px;
+  }
+
+  
+  .fb{
+    width:65px;
+    height:60px;
+    margin-top: 6px;
+    margin: 10px;
+  }
+
+  
+  .ewu,
+  .mail{
+    width:47px;
+    height:45px;
+    margin-top: 6px;
+    background-color: blue(91, 57, 123);
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  .google{
+    display: flex;
+    margin-left:auto ;
+    margin-right: auto;
+    width: 140px;
+    height:auto;
+    margin-top: -18px;
+    margin-bottom: 20px;
+  }
+
+
